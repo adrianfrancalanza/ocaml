@@ -1,0 +1,280 @@
+# dune test
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/adrianfrancalanza/.cache/dune/db
+# Workspace root: "/Users/adrianfrancalanza/Documents/Work/teaching/2nd
+# Year/programming-paradigms-code/ocaml/assignmentone"
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlc.opt -config > /var/folders/f7/p0gn8l5s1ylf4qwghf6bt44w0000gn/T/dune_925050_output
+$ (cd _build/default && /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I lib/.worksheet.objs/byte -no-alias-deps -opaque -o lib/.worksheet.objs/byte/worksheet.cmo -c -impl lib/worksheet.ml)
+$ (cd _build/default && /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/.test_worksheet.eobjs/byte -I /Users/adrianfrancalanza/.opam/5.1.0/lib/ocaml/unix -I /Users/adrianfrancalanza/.opam/5.1.0/lib/ounit2 -I /Users/adrianfrancalanza/.opam/5.1.0/lib/ounit2/advanced -I /Users/adrianfrancalanza/.opam/5.1.0/lib/seq -I /Users/adrianfrancalanza/.opam/5.1.0/lib/stdlib-shims -I lib/.worksheet.objs/byte -no-alias-deps -opaque -o test/.test_worksheet.eobjs/byte/dune__exe__Test_worksheet.cmi -c -intf test/test_worksheet.mli)
+$ (cd _build/default && /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I lib/.worksheet.objs/byte -I lib/.worksheet.objs/native -intf-suffix .ml -no-alias-deps -opaque -o lib/.worksheet.objs/native/worksheet.cmx -c -impl lib/worksheet.ml)
+$ (cd _build/default && /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/.test_worksheet.eobjs/byte -I test/.test_worksheet.eobjs/native -I /Users/adrianfrancalanza/.opam/5.1.0/lib/ocaml/unix -I /Users/adrianfrancalanza/.opam/5.1.0/lib/ounit2 -I /Users/adrianfrancalanza/.opam/5.1.0/lib/ounit2/advanced -I /Users/adrianfrancalanza/.opam/5.1.0/lib/seq -I /Users/adrianfrancalanza/.opam/5.1.0/lib/stdlib-shims -I lib/.worksheet.objs/byte -I lib/.worksheet.objs/native -intf-suffix .ml -no-alias-deps -opaque -o test/.test_worksheet.eobjs/native/dune__exe__Test_worksheet.cmx -c -impl test/test_worksheet.ml)
+$ (cd _build/default && /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/worksheet.cmxa lib/.worksheet.objs/native/worksheet.cmx)
+$ (cd _build/default && /Users/adrianfrancalanza/.opam/5.1.0/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/test_worksheet.exe lib/worksheet.cmxa /Users/adrianfrancalanza/.opam/5.1.0/lib/ocaml/unix/unix.cmxa /Users/adrianfrancalanza/.opam/5.1.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/adrianfrancalanza/.opam/5.1.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/adrianfrancalanza/.opam/5.1.0/lib/ounit2/oUnit.cmxa test/.test_worksheet.eobjs/native/dune__exe__Test_worksheet.cmx)
+$ (cd _build/default/test && ./test_worksheet.exe)
+> EEEEEEEEEEEEEEEEEEEEE
+> ==============================================================================
+> Error: Worksheet suite:19:Test is_palindrome list even.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 82, characters 1-1:
+> Error: Worksheet suite:19:Test is_palindrome list even (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.is_palindrome_list_even in file "test/test_worksheet.ml", line 69, characters 20-56
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:20:Test is_palindrome list odd.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 74, characters 1-1:
+> Error: Worksheet suite:20:Test is_palindrome list odd (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.is_palindrome_list_odd in file "test/test_worksheet.ml", line 72, characters 20-51
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:18:Test is_palindrome singleton.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 74, characters 1-1:
+> Error: Worksheet suite:18:Test is_palindrome singleton (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.is_palindrome_singleton in file "test/test_worksheet.ml", line 66, characters 20-41
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:17:Test is_palindrome empty.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 66, characters 1-1:
+> Error: Worksheet suite:17:Test is_palindrome empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.is_palindrome_empty in file "test/test_worksheet.ml", line 63, characters 20-38
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:16:Test even_sized_palindrome size.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 66, characters 1-1:
+> Error: Worksheet suite:16:Test even_sized_palindrome size (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.even_sized_palindrome_size in file "test/test_worksheet.ml", line 59, characters 51-76
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:15:Test even_sized_palindrome list.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 58, characters 1-1:
+> Error: Worksheet suite:15:Test even_sized_palindrome list (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.even_sized_palindrome_list in file "test/test_worksheet.ml", line 55, characters 33-66
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:14:Test even_sized_palindrome singleton.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 58, characters 1-1:
+> Error: Worksheet suite:14:Test even_sized_palindrome singleton (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.even_sized_palindrome_singleton in file "test/test_worksheet.ml", line 52, characters 21-48
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:13:Test even_sized_palindrome empty.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 50, characters 1-1:
+> Error: Worksheet suite:13:Test even_sized_palindrome empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.even_sized_palindrome_empty in file "test/test_worksheet.ml", line 49, characters 18-44
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:12:Test rev list.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 50, characters 1-1:
+> Error: Worksheet suite:12:Test rev list (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.rev_list in file "test/test_worksheet.ml", line 45, characters 25-40
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:11:Test rev singleton.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 42, characters 1-1:
+> Error: Worksheet suite:11:Test rev singleton (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.rev_singleton in file "test/test_worksheet.ml", line 42, characters 19-28
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:10:Test rev empty.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 34, characters 1-1:
+> Error: Worksheet suite:10:Test rev empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.rev_empty in file "test/test_worksheet.ml", line 39, characters 18-26
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:9:Test sum_list.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 42, characters 1-1:
+> Error: Worksheet suite:9:Test sum_list (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.sum_list in file "test/test_worksheet.ml", line 35, characters 18-31
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:8:Test sum_singleton.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 34, characters 1-1:
+> Error: Worksheet suite:8:Test sum_singleton (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.sum_singleton in file "test/test_worksheet.ml", line 32, characters 17-26
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:7:Test sum empty.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 26, characters 1-1:
+> Error: Worksheet suite:7:Test sum empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.sum_empty in file "test/test_worksheet.ml", line 29, characters 17-25
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:6:Test remove_int: list unmatch.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 18, characters 1-1:
+> Error: Worksheet suite:6:Test remove_int: list unmatch (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.remove_int_list_unmatch in file "test/test_worksheet.ml", line 25, characters 29-57
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:5:Test remove_int: list match.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 26, characters 1-1:
+> Error: Worksheet suite:5:Test remove_int: list match (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.remove_int_list_match in file "test/test_worksheet.ml", line 22, characters 23-51
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:3:Test remove_int: singleton match.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 10, characters 1-1:
+> Error: Worksheet suite:3:Test remove_int: singleton match (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.remove_int_singleton_match in file "test/test_worksheet.ml", line 16, characters 18-36
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:4:Test remove_int: singleton unmatch.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 18, characters 1-1:
+> Error: Worksheet suite:4:Test remove_int: singleton unmatch (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.remove_int_singleton_unmatch in file "test/test_worksheet.ml", line 19, characters 19-37
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:2:Test remove_int: empty.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 10, characters 1-1:
+> Error: Worksheet suite:2:Test remove_int: empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.remove_int_empty in file "test/test_worksheet.ml", line 13, characters 18-35
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:1:Test is_even: odd case.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#02.log", line 2, characters 1-1:
+> Error: Worksheet suite:1:Test is_even: odd case (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.is_even_odd_case in file "test/test_worksheet.ml", line 9, characters 21-32
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: Worksheet suite:0:Test is_even: even case.
+>
+> File "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-Worksheet suite-Kosztela.local#01.log", line 2, characters 1-1:
+> Error: Worksheet suite:0:Test is_even: even case (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Test_worksheet.is_even_even_case in file "test/test_worksheet.ml", line 6, characters 20-31
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("TODO")
+> ------------------------------------------------------------------------------
+> Ran: 21 tests in: 0.11 seconds.
+> FAILED: Cases: 21 Tried: 21 Errors: 21 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+[1]

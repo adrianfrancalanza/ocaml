@@ -1,0 +1,395 @@
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Runner: processes
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Chooser: simple
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration suite_name = "Worksheet suite"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration cache_filename = "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-$(suite_name).cache"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration run_gc_full_major = "true"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration display = "true"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration results_style_1_X = "false"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration testdata_dir = "none"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration health_check_interval = "1."
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration verbose = "false"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration chooser = "simple"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration output_html_dir = "none"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration processes_kill_period = "5."
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration runner = "processes"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration shards = "2"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration processes_grace_period = "5."
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration log_encoding = "utf-8"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration output_junit_file = "none"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration ci = "false"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Configuration output_file = "/Users/adrianfrancalanza/Documents/Work/teaching/2nd Year/programming-paradigms-code/ocaml/assignmentone/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Using 2 workers maximum.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Starting worker number Kosztela.local#01.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Worker Kosztela.local#01 started.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Starting worker number Kosztela.local#02.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Worker Kosztela.local#02 started.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:1:Test is_even: odd case, Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:1:Test is_even: odd case, Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:0:Test is_even: even case exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.is_even_even_case in file "test/test_worksheet.ml", line 6, characters 20-31
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:1:Test is_even: odd case, Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:1:Test is_even: odd case, Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:2:Test remove_int: empty, Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:2:Test remove_int: empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:2:Test remove_int: empty, Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:1:Test is_even: odd case exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.is_even_odd_case in file "test/test_worksheet.ml", line 9, characters 21-32
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:2:Test remove_int: empty, Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:2:Test remove_int: empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:2:Test remove_int: empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.remove_int_empty in file "test/test_worksheet.ml", line 13, characters 18-35
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:2:Test remove_int: empty, Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:2:Test remove_int: empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:3:Test remove_int: singleton match, Worksheet suite:2:Test remove_int: empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:4:Test remove_int: singleton unmatch, Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:4:Test remove_int: singleton unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:4:Test remove_int: singleton unmatch, Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:4:Test remove_int: singleton unmatch exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:4:Test remove_int: singleton unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.remove_int_singleton_unmatch in file "test/test_worksheet.ml", line 19, characters 19-37
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:4:Test remove_int: singleton unmatch, Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:3:Test remove_int: singleton match exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.remove_int_singleton_match in file "test/test_worksheet.ml", line 16, characters 18-36
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:4:Test remove_int: singleton unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:4:Test remove_int: singleton unmatch, Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:5:Test remove_int: list match, Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:6:Test remove_int: list unmatch, Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:6:Test remove_int: list unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:6:Test remove_int: list unmatch, Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:5:Test remove_int: list match exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.remove_int_list_match in file "test/test_worksheet.ml", line 22, characters 23-51
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:6:Test remove_int: list unmatch exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:6:Test remove_int: list unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.remove_int_list_unmatch in file "test/test_worksheet.ml", line 25, characters 29-57
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:6:Test remove_int: list unmatch, Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:6:Test remove_int: list unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:6:Test remove_int: list unmatch, Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:8:Test sum_singleton, Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:8:Test sum_singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:8:Test sum_singleton, Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:8:Test sum_singleton, Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:7:Test sum empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.sum_empty in file "test/test_worksheet.ml", line 29, characters 17-25
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:8:Test sum_singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:8:Test sum_singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.sum_singleton in file "test/test_worksheet.ml", line 32, characters 17-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:8:Test sum_singleton, Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:8:Test sum_singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:8:Test sum_singleton, Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:10:Test rev empty, Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:10:Test rev empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:10:Test rev empty, Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:9:Test sum_list exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.sum_list in file "test/test_worksheet.ml", line 35, characters 18-31
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:10:Test rev empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:10:Test rev empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.rev_empty in file "test/test_worksheet.ml", line 39, characters 18-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:10:Test rev empty, Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:10:Test rev empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:10:Test rev empty, Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:12:Test rev list, Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:12:Test rev list, Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:11:Test rev singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.rev_singleton in file "test/test_worksheet.ml", line 42, characters 19-28
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:12:Test rev list, Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:12:Test rev list, Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:13:Test even_sized_palindrome empty, Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:13:Test even_sized_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:13:Test even_sized_palindrome empty, Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:12:Test rev list exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.rev_list in file "test/test_worksheet.ml", line 45, characters 25-40
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:13:Test even_sized_palindrome empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:13:Test even_sized_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_empty in file "test/test_worksheet.ml", line 49, characters 18-44
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:13:Test even_sized_palindrome empty, Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:13:Test even_sized_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:13:Test even_sized_palindrome empty, Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:15:Test even_sized_palindrome list, Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:15:Test even_sized_palindrome list, Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:14:Test even_sized_palindrome singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_singleton in file "test/test_worksheet.ml", line 52, characters 21-48
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:15:Test even_sized_palindrome list, Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:15:Test even_sized_palindrome list, Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:16:Test even_sized_palindrome size, Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:16:Test even_sized_palindrome size.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:16:Test even_sized_palindrome size, Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:15:Test even_sized_palindrome list exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_list in file "test/test_worksheet.ml", line 55, characters 33-66
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:16:Test even_sized_palindrome size, Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:16:Test even_sized_palindrome size exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:16:Test even_sized_palindrome size.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_size in file "test/test_worksheet.ml", line 59, characters 51-76
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:16:Test even_sized_palindrome size, Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:16:Test even_sized_palindrome size.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:17:Test is_palindrome empty, Worksheet suite:16:Test even_sized_palindrome size.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:18:Test is_palindrome singleton, Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:18:Test is_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:18:Test is_palindrome singleton, Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:17:Test is_palindrome empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.is_palindrome_empty in file "test/test_worksheet.ml", line 63, characters 20-38
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:18:Test is_palindrome singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:18:Test is_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.is_palindrome_singleton in file "test/test_worksheet.ml", line 66, characters 20-41
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:18:Test is_palindrome singleton, Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:18:Test is_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:18:Test is_palindrome singleton, Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Still 2 tests running : Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: Start test Worksheet suite:20:Test is_palindrome list odd.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Still 2 tests running : Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: Start test Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Test Worksheet suite:20:Test is_palindrome list odd exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Failure("TODO") in test Worksheet suite:20:Test is_palindrome list odd.
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from Dune__exe__Test_worksheet.is_palindrome_list_odd in file "test/test_worksheet.ml", line 72, characters 20-51
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#01 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Still 2 tests running : Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Test Worksheet suite:19:Test is_palindrome list even exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Failure("TODO") in test Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from Dune__exe__Test_worksheet.is_palindrome_list_even in file "test/test_worksheet.ml", line 69, characters 20-56
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#02 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#01 I: End test Worksheet suite:20:Test is_palindrome list odd.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Still 2 tests running : Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 2 tests running: Worksheet suite:20:Test is_palindrome list odd, Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#02 I: End test Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Still 1 tests running : Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 1 tests running: Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: 0 tests running: .
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Worker Kosztela.local#01 has ended.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Worker Kosztela.local#02 died unexpectedly.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Used 2 worker during test execution.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Run 10 tests with shard Kosztela.local#01.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Run 11 tests with shard Kosztela.local#02.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Check health of shard Kosztela.local#01, 2 times.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Check health of shard Kosztela.local#02, 2 times.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: ==============
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Summary:
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:19:Test is_palindrome list even exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:19:Test is_palindrome list even.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.is_palindrome_list_even in file "test/test_worksheet.ml", line 69, characters 20-56
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:20:Test is_palindrome list odd exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:20:Test is_palindrome list odd.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.is_palindrome_list_odd in file "test/test_worksheet.ml", line 72, characters 20-51
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:18:Test is_palindrome singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:18:Test is_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.is_palindrome_singleton in file "test/test_worksheet.ml", line 66, characters 20-41
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:17:Test is_palindrome empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:17:Test is_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.is_palindrome_empty in file "test/test_worksheet.ml", line 63, characters 20-38
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:16:Test even_sized_palindrome size exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:16:Test even_sized_palindrome size.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_size in file "test/test_worksheet.ml", line 59, characters 51-76
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:15:Test even_sized_palindrome list exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:15:Test even_sized_palindrome list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_list in file "test/test_worksheet.ml", line 55, characters 33-66
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:14:Test even_sized_palindrome singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:14:Test even_sized_palindrome singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_singleton in file "test/test_worksheet.ml", line 52, characters 21-48
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:13:Test even_sized_palindrome empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:13:Test even_sized_palindrome empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.even_sized_palindrome_empty in file "test/test_worksheet.ml", line 49, characters 18-44
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:12:Test rev list exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:12:Test rev list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.rev_list in file "test/test_worksheet.ml", line 45, characters 25-40
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:11:Test rev singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:11:Test rev singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.rev_singleton in file "test/test_worksheet.ml", line 42, characters 19-28
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:10:Test rev empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:10:Test rev empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.rev_empty in file "test/test_worksheet.ml", line 39, characters 18-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:9:Test sum_list exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:9:Test sum_list.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.sum_list in file "test/test_worksheet.ml", line 35, characters 18-31
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:8:Test sum_singleton exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:8:Test sum_singleton.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.sum_singleton in file "test/test_worksheet.ml", line 32, characters 17-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:7:Test sum empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:7:Test sum empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.sum_empty in file "test/test_worksheet.ml", line 29, characters 17-25
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:6:Test remove_int: list unmatch exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:6:Test remove_int: list unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.remove_int_list_unmatch in file "test/test_worksheet.ml", line 25, characters 29-57
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:5:Test remove_int: list match exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:5:Test remove_int: list match.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.remove_int_list_match in file "test/test_worksheet.ml", line 22, characters 23-51
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:3:Test remove_int: singleton match exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:3:Test remove_int: singleton match.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.remove_int_singleton_match in file "test/test_worksheet.ml", line 16, characters 18-36
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:4:Test remove_int: singleton unmatch exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:4:Test remove_int: singleton unmatch.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.remove_int_singleton_unmatch in file "test/test_worksheet.ml", line 19, characters 19-37
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:2:Test remove_int: empty exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:2:Test remove_int: empty.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.remove_int_empty in file "test/test_worksheet.ml", line 13, characters 18-35
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:1:Test is_even: odd case exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:1:Test is_even: odd case.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.is_even_odd_case in file "test/test_worksheet.ml", line 9, characters 21-32
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Test Worksheet suite:0:Test is_even: even case exited with an error.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Failure("TODO") in test Worksheet suite:0:Test is_even: even case.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from Dune__exe__Test_worksheet.is_even_even_case in file "test/test_worksheet.ml", line 6, characters 20-31
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-10-03T14:25:23+00:00 Kosztela.local#00 E: 
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Ran: 21 tests in: 0.11 seconds.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Cases: 21.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Tried: 21.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Errors: 21.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Failures: 0.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Skip: 0.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Todo: 0.
+2025-10-03T14:25:23+00:00 Kosztela.local#00 I: Timeout: 0.
