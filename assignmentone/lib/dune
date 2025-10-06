@@ -1,2 +1,4 @@
 (library
- (name worksheet))
+ (name assignmentone)
+ (public_name assignmentone)
+ (flags (:standard -warn-error -a)))

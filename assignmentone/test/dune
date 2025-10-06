@@ -1,3 +1,4 @@
-(test
- (name test_worksheet)
- (libraries worksheet ounit2))
+(tests
+ (names
+   test_worksheet)
+ (libraries assignmentone ounit2))
