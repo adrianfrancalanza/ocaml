@@ -2,7 +2,7 @@ These are the source files of the first part of the OCaml assignment for the Pro
 
 ---
 
-# Instructions
+# Assignment one instructions
 
 All the source files that you need to modify and implement are located in the `assignmentone/lib/worksheet.ml` directory.
 
