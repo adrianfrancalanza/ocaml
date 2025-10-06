@@ -1,3 +1,3 @@
 (** Entry function. *)
 let () = 
-  print_endline "Assignment one worksheet!"
+  print_endline "Worksheet one!"
