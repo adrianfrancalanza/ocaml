@@ -10,6 +10,13 @@ Replace the lines `failwith "TODO Implementation"` in the `worksheet.ml` module 
 
 Tests have been provided to validate your implementation. The tests can be found in the `assignmentone/test/test_worksheet.ml` directory. **Do not modify** files in this module.
 
+Run `dune exec bin/main.exe` to confirm that everything works. You should obtain the following on your terminal:
+
+```shell
+> dune exec bin/main.exe
+Assignment one worksheet!  
+```
+
 # Handy command line shortcuts
 
 - To **compile** your source, `cd` to the `assignmentone` directory and execute:

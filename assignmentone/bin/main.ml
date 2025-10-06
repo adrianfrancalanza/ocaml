@@ -1,1 +1,3 @@
-let () = print_endline "Hello, World!"
+(** Entry function. *)
+let () = 
+  print_endline "Assignment one worksheet!"
