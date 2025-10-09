@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github adrianfrancalanza/ocaml))
 
-(authors "Author Name <author@example.com>")
+(authors "Duncan Paul Attard" "Marietta Galea" "Gerard Tabone")
 
-(maintainers "Maintainer Name <maintainer@example.com>")
+(maintainers "duncan.attard@um.edu.mt" "marietta.galea@um.edu.mt" "gerard.tabone@um.edu.mt")
 
 (license LICENSE)
 
@@ -17,7 +17,7 @@
 
 (package
  (name assignmentone)
- (synopsis "A short synopsis")
+ (synopsis "CPS 2001 - Programming paradigms OCaml worksheet")
  (description "A longer description")
  (depends ocaml)
  (tags
