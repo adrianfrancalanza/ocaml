@@ -8,7 +8,7 @@ exception Not_in_alphabet of alpha
 
 
 (* ----------------------------- Supporting code ---------------------------- *)
-(** [map f l] 
+(** [map f s] 
     Maps every element in [s] using the function [f]. 
 *)
 let rec map (f: 'a -> 'b) (s: 'a list): 'b list =
