@@ -42,7 +42,7 @@ let a_eq (a: alpha) (b: alpha): bool =
 
 (** Question 2.
     [even_a a s]
-    Returns [true] if the number of occurrences of [a] is odd/even in [l], 
+    Returns [true] if the number of occurrences of [a] is odd/even in [s], 
     otherwise [false].
 *)
 let rec even_a (a: alpha) (s: astring): bool =
